@@ -60,7 +60,7 @@
 @media (max-width:720px){
   .main{
     flex-direction: column-reverse;
-    height: 75vh;
+    height: 70vh;
   }
   .main_fisrt_section {
     padding: 0 3rem;

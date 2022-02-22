@@ -198,19 +198,10 @@ function Project({ img, text, title, link_code,link_live }) {
 }
 
 function Resume() {
-  useEffect(() => {
-    Aos.init({
-      offset: 200,
-      duration: 600,
-      easing: "ease-in-sine",
-      delay: 50,
-      disable: "mobile",
-    });
-  }, []);
 
   return (
     <Tab.Container id="left-tabs-example" defaultActiveKey="Education">
-      <Row className="side_nav" data-aos="fade-left" data-aos-once={true}>
+      <Row className="side_nav" >
         <h1 style={{ textAlign: "center", padding: "1rem 0" }}>Resume 📄</h1>
         <Col sm={3}>
           <Nav variant="pills" className="flex-column">
