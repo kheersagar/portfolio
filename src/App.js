@@ -45,8 +45,8 @@ function App() {
           </div>
           <div className="first_section_button">
             <Button variant="outline-danger" style={{color:"white",marginRight:'1rem'}}><a href="https://drive.google.com/file/d/1gbwBVibwq9htemRAS0FexbGBwO6Yt5dN/view?usp=sharing"download target="_blank" style={{textDecoration:'none',color:'white',fontSize:'1.5rem',fontWeight:"500"}}>Resume</a></Button>{" "}
-            <a href="https://github.com/kheersagar" target="_blank"> <img src={require("./assests/Img/github.png")} width="40"/>{" "}</a>
-            <a href="https://www.linkedin.com/in/kheersagar-parja-02302b1b8/" target="_blank"> <img src={require("./assests/Img/linkedin.png")} width="40" style={{borderRadius:'50%'}}/> </a>
+            <a href="https://github.com/kheersagar" target="_blank"> <img src={require("./assests/Img/github.png")} width="40" style={{cursor:'pointer'}}/>{" "}</a>
+            <a href="https://www.linkedin.com/in/kheersagar-parja-02302b1b8/" target="_blank"> <img src={require("./assests/Img/linkedin.png")} width="40" style={{borderRadius:'50%',cursor:'pointer'}}/> </a>
           </div>
         </div>
         <div className="main_second_section">
@@ -54,6 +54,7 @@ function App() {
           <img src={profile} className="profile_img"/>
         </div>
         </div>
+        <img src={require("./assests/Img/curve-white.png")} className="curve"/>
       </div>
       <div className="about_section" id="about">
         <About />
