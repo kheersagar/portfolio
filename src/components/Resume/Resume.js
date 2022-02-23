@@ -12,7 +12,7 @@ import {
 
 import collegeMentor from "../../assests/Img/login.png";
 import sae from "../../assests/Img/logo.png";
-import codepen from "../../assests/Img/ogimage.jpg";
+import codepen from "../../assests/Img/codepen.png";
 import movieapp from "../../assests/Img/hotstart-clone-2.jpg";
 
 import "./Resume.css";

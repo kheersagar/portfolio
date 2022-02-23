@@ -35,7 +35,7 @@ function App() {
             steps={[
               "MERN Stack Developer 👨‍💻",
               4000,
-              "Coder",
+              "Passionate Coder",
               4000,
             ]}
             loop={Infinity}
