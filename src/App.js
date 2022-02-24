@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Typical from "react-typical";
 
-import profile from "./assests/Img/profile.jpeg"
+import profile from "./assests/Img/profile.png"
 import Resume from "./components/Resume/Resume";
 import About from "./components/About/About";
 import Aos from "aos";

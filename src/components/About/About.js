@@ -15,6 +15,10 @@ function About() {
 
   return (
     <div className='about_main' data-aos="zoom-in-up" data-aos-once={true}>
+    <div className='about_first_section'>
+      <img src={require("../../assests/Img/aboutProfile.png")} className="aboutProfile"/>
+    </div>
+    <div>
       <div className='heading_about'>
         <h1>About Me🙎</h1>
       </div>
@@ -24,6 +28,7 @@ function About() {
         and had had worked as Business Development Associate. I have Developed Various Projects in Mern Stack and also worked on 
         Mobile APP in React Native.
         </p>
+      </div>
       </div>
     </div>
   )
