@@ -42,6 +42,12 @@
   border-radius: 50%;
   width: 11rem;
   height: 11rem !important;
+  border:0 solid white;
+  transition: all 1s;
+}
+.profile_img:hover{
+  padding: 0.5rem;
+  border: 5px solid white;
 }
 @keyframes profileZoom {
   0% {

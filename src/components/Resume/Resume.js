@@ -187,8 +187,8 @@ function Project({ img, text, title, link_code,link_live }) {
         <Card.Title>{title}</Card.Title>
         <Card.Text style={{fontWeight:'500',wordWrap:'break-word',lineHeight:'25px',textAlign:'left'}}>{text}</Card.Text>
         <Row>
-          <Col><Button variant="outline-warning"><a href={link_code} target="_blank" style={{textDecoration:'none',color:'black',fontSize:'1.2rem',fontWeight:"500"}}>Code</a></Button></Col>
-          <Col><Button variant="outline-danger"><a href={link_live} target="_blank" style={{textDecoration:'none',color:'black',fontSize:'1.2rem',fontWeight:"500"}}>live</a></Button></Col>
+          <Col><Button variant="outline-warning"><a className="project_card_link" href={link_code} target="_blank" style={{textDecoration:'none',color:'black',fontSize:'1.2rem',fontWeight:"500"}}>Code</a></Button></Col>
+          <Col><Button variant="outline-danger"><a className="project_card_link" href={link_live} target="_blank" style={{textDecoration:'none',color:'black',fontSize:'1.2rem',fontWeight:"500"}}>live</a></Button></Col>
         </Row>
         
         
