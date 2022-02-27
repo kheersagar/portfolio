@@ -25,7 +25,7 @@ function About() {
       <div>
         <p className='about_para'>
         I am a MERN Stack Developer with working experince as front-end web developer at Across the globe (ATG)
-        and had had worked as Business Development Associate. I have Developed Various Projects in Mern Stack and also worked on 
+        and had worked as Business Development Associate. I have Developed Various Projects in Mern Stack and also worked on 
         Mobile APP in React Native.
         </p>
       </div>

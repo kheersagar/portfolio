@@ -26,7 +26,7 @@ const collegeMEntor_text =
 const sae_text =
   "SAE is a react based frontend website to showcase the achievements and going activities of SAE club of OP Jindal University";
 const codepen_clone_text =
-  "SAE is a react based frontend website to showcase the achievements and going activities of SAE club of OP Jindal University";
+  "This is an online code editor for HTML, CSS, JAVASCRIPT made using ReactJS";
 const movieapp_text =
   "App contains Home Tab which provide the movie details with different genre then suggests you similar kind of movie depending upon the movie which you have selected. Tv tab to provide Top rated and Popular Tv shows details.I have used TMDB API to fetch movies and tv shows data . And also used react-native Bottom tab navigation and Implemented Carousel. Then building the apk of the project.";
 
