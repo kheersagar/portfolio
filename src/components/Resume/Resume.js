@@ -21,7 +21,7 @@ import "aos/dist/aos.css";
 
 //text
 
-const collegeMEntor_text =
+const collegeMentor_text =
   "collegeMentor is a space where students can find there mentor by simply entering into the website and searching for the related keywords, and they can chat with them through our inbuilt chat system. Study material section has been included so that it can be helpful for their learning. Students can post their projects through in built post upload system and even see others post to know what are things going on in the campus.";
 const sae_text =
   "SAE is a react based frontend website to showcase the achievements and going activities of SAE club of OP Jindal University";
@@ -243,8 +243,8 @@ function Resume() {
                 <Col>
                   <Project
                     img={collegeMentor}
-                    title="CollegeMEntor"
-                    text={collegeMEntor_text}
+                    title="CollegeMentor"
+                    text={collegeMentor_text}
                     link_code={collegementor_link_code}
                     link_live={collegementor_link_live}
                   />
