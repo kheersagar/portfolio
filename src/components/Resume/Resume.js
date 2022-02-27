@@ -160,7 +160,7 @@ function Programming() {
 function Work() {
   return (
     <>
-      <Row>
+      <Row style={{fontSize: "1.2rem !important" , fontWeight: "500"}}> 
         <h2>
           <Spinner animation="border" size="sm" /> Front-End Web Developer
         </h2>
